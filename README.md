@@ -1,11 +1,11 @@
-# infergw_jd265
+# gpu_failure_recovery_grouping
 
 **把推理网关架构师·GPU 故障与作业自愈归并成组并标出每组的代表项。**
 
-`infergw_jd265` —— 按结构键把条目聚类，标出推理网关架构师·GPU 故障与作业自愈上的同组项与各组的代表样本
+`gpu_failure_recovery_grouping` —— 按结构键把条目聚类，标出推理网关架构师·GPU 故障与作业自愈上的同组项与各组的代表样本
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`infergw_jd265.py` 拷走就能用
+- 单文件，`gpu_failure_recovery_grouping.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install oliver-zhe-infergw_jd265
+pip install oliver-zhe-gpu_failure_recovery_grouping
 ```
 
 装完直接用命令名调用：
 
 ```bash
-infergw_jd265 --help
+gpu_failure_recovery_grouping --help
 ```
 
-也可以不用安装，直接把 `infergw_jd265.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `gpu_failure_recovery_grouping.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ infergw_jd265 --help
 ## 用法
 
 ```bash
-python infergw_jd265.py --file input.txt
-python infergw_jd265.py --text "示例内容"
-python infergw_jd265.py --file input.txt --json
+python gpu_failure_recovery_grouping.py --file input.txt
+python gpu_failure_recovery_grouping.py --text "示例内容"
+python gpu_failure_recovery_grouping.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python infergw_jd265.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_infergw_jd265.py
+python test_gpu_failure_recovery_grouping.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_infergw_jd265.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/oliver-zhe/infergw_jd265>
+- GitHub 仓库：<https://github.com/oliver-zhe/gpu_failure_recovery_grouping>
 
 ---
 
@@ -79,7 +79,7 @@ python test_infergw_jd265.py
 oliver-zhe 做推理网关架构师·GPU 故障与作业自愈相关的问题，方向对标宇树科技的架构推理网关架构师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://oliver-zhe.github.io>
-- 仓库：<https://github.com/oliver-zhe/infergw_jd265>
+- 仓库：<https://github.com/oliver-zhe/gpu_failure_recovery_grouping>
 
 ## 许可
 

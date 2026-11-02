@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "oliver-zhe-infergw_jd265"
+name = "oliver-zhe-gpu_failure_recovery_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出推理网关架构师·GPU 故障与作业自愈上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://oliver-zhe.github.io"
-Repository = "https://github.com/oliver-zhe/infergw_jd265"
-Issues = "https://github.com/oliver-zhe/infergw_jd265/issues"
+Repository = "https://github.com/oliver-zhe/gpu_failure_recovery_grouping"
+Issues = "https://github.com/oliver-zhe/gpu_failure_recovery_grouping/issues"
 
 [project.scripts]
-infergw_jd265 = "infergw_jd265:main"
+gpu_failure_recovery_grouping = "gpu_failure_recovery_grouping:main"
 
 [tool.setuptools]
-py-modules = ["infergw_jd265"]
+py-modules = ["gpu_failure_recovery_grouping"]
